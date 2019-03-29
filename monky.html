@@ -1,0 +1,153 @@
+<html>
+    <header>
+        <style>
+            #container{
+            position: relative;
+              margin:auto;
+              display: block;
+              width:400px;
+              height: 300px;
+              background:none;  
+              
+            }
+            .head{
+                position: absolute;
+                width:50%;
+                height:67%;
+                top : 15%;
+                left: 25%;
+                background:none;
+                border-radius: 50%;
+            }
+            .headCopy{
+                position: absolute;
+                width:100%;
+                height:95%;
+                bottom: -10px;
+                background: #915F4D;
+                border-radius: 50%;
+                z-index: 2;
+            }
+            .earRight{
+                position: absolute;
+                width:40%;
+                height:40%;
+                right:-15%;
+                top:20%;
+                background:#C86031;
+                border-radius: 50%;
+                z-index: 1;
+            }
+            .earLeft{
+                position: absolute;
+                width:40%;
+                height:40%;
+                left:-15%;
+                top:20%;
+                background:#C86031;
+                border-radius: 50%;
+                z-index: 1;
+            }
+         
+            .rightEye{
+                position:absolute;
+                background:#FCC192;
+                top :40%;
+                right:17%;
+                height:40%;
+                width:40%;
+                border-radius: 50%;
+                z-index: 3;
+            }
+            .leftEye{
+                position:absolute;
+                background:#FCC192;
+                top :40%;
+                left:17%;
+                height:40%;
+                width:40%;
+                border-radius: 50%;
+                z-index: 3;
+            }
+            .pupil{
+                position:absolute;
+                background: #27354a;
+                top :35%;
+                left:40%;
+                height:20%;
+                width:20%;
+                border-radius: 50%;
+                z-index: 3;
+            }
+            .nose{
+                position:absolute;
+                background:none;
+                bottom :5%;
+                left:39%;
+                width:25%;
+                height:20%;
+                border-radius: 50%;
+                z-index: 3;
+            }
+            .noseInnerRight{
+                position:absolute;
+                background: #27354a;
+                top :35%;
+                left:30%;
+                height:15%;
+                width:15%;
+                border-radius: 50%;
+                z-index: 3;
+            }
+            .noseInnerLeft{
+                position:absolute;
+                background: #27354a;
+                top :35%;
+                right:30%;
+                height:15%;
+                width:15%;
+                border-radius: 50%;
+                z-index: 3;
+            }
+            .mouth{
+                position:absolute;
+                background:#FCC192;
+                bottom :0%;
+                right:30%;
+                height:35%;
+                width:35%;
+                border-radius: 50%;
+                z-index: 3;
+            }
+        </style>
+    </header>
+    <body>
+            <div id="container">
+                <div class="head">
+                    <div class="headCopy"></div>
+
+                    <div class="earRight">
+                        <div class="innrEar"></div>
+                    </div>
+                    <div class="earLeft">
+                            <div class="innrEar"></div>
+                    </div>
+
+                     <div class="rightEye">
+                         <div class="pupil"></div>
+                     </div>
+                     <div class="leftEye">
+                        <div class="pupil"></div>
+                     </div>
+                     <div class="mouth"></div>
+                     <div class="nose">
+                            <div class="noseInnerRight"></div>
+                            <div class="noseInnerLeft"></div>
+                     </div>
+                     <div class="noseInner">
+                    </div> 
+                </div>
+            </div>
+            
+    </body>
+</html>
