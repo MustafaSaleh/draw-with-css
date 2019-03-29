@@ -1,0 +1,129 @@
+<html>
+    <header>
+        <style>
+            #container{
+            position: relative;
+              margin:auto;
+              display: block;
+              width:400px;
+              height: 300px;
+              background:none;  
+              
+            }
+            .head{
+                position: absolute;
+                width:50%;
+                height:67%;
+                top : 15%;
+                left: 25%;
+                background: #a6becf;
+                border-radius: 50%;
+            }
+            .headCopy{
+                position: absolute;
+                width:100%;
+                height:100%;
+                background: #a6becf;
+                border-radius:50%;
+                z-index: 2;
+            }
+            .earRight{
+                position: absolute;
+                width:60%;
+                height:65%;
+                left:-20%;
+                top:5%;
+                background:#a6bfcf;
+               border-radius:50%;
+                z-index: 1;
+            }
+            .earLeft{
+                position: absolute;
+                width:60%;
+                height:65%;
+                right:-20%;
+                top:5%;
+                background:#a6bfcf;
+                border-radius:50%;
+                z-index: 1;
+            }
+            .innrEar{
+                position: absolute;
+                border-radius: 50%;
+                width:80%;
+                height:80%;
+                top:10%;
+                left:10%;
+                background: #819caf;
+            }
+            .rightEye{
+                position:absolute;
+                background: #ffffff;
+                top :25%;
+                right:18%;
+                height:30%;
+                width:30%;
+                border-top-right-radius: 10%;
+                border-top-left-radius: 10%;
+                border-bottom-left-radius: 20%;
+                border-bottom-right-radius: 20%;
+                z-index: 3;
+            }
+            .leftEye{
+                position:absolute;
+                background: #ffffff;
+                top :25%;
+                left:18%;
+                height:30%;
+                width:30%;
+                border-top-right-radius: 10%;
+                border-top-left-radius: 10%;
+                border-bottom-left-radius: 20%;
+                border-bottom-right-radius: 20%;
+                z-index: 3;
+            }
+            .pupil{
+                position:absolute;
+                background: #27354a;
+                top :35%;
+                left:36%;
+                height:30%;
+                width:28%;
+                border-radius: 50%;
+                z-index: 3;
+            }
+            .nose{
+                position:absolute;
+                background: #be845f;
+                top :45%;
+                left:37%;
+                width:25%;
+                height:42.5%;
+                border-radius: 30%;
+                z-index: 4;
+            }
+        </style>
+    </header>
+    <body>
+            <div id="container">
+                <div class="head">
+                    <div class="headCopy"></div>
+                    <div class="earRight">
+                        <div class="innrEar"></div>
+                    </div>
+                    <div class="earLeft">
+                            <div class="innrEar"></div>
+                    </div>
+
+                     <div class="rightEye">
+                         <div class="pupil"></div>
+                     </div>
+                     <div class="leftEye">
+                            <div class="pupil"></div>
+                     </div>
+                     <div class="nose"></div>
+                </div>
+            </div>
+            
+    </body>
+</html>
