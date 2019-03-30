@@ -1,4 +1,6 @@
 Drawing with CSS
+Hi!
+I just started to convert simple drawings in css, feel free to copy.
 * Bear.
 * Coala.
 * Monky.
